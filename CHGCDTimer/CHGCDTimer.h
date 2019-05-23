@@ -18,6 +18,14 @@
              start:(NSTimeInterval)start
           interval:(NSTimeInterval)interval repeats:(BOOL)repeat async:(BOOL)async;
 
++ (NSString *)doWithTask:(id)target
+                selector:(SEL)selector
+                   start:(NSTimeInterval)start
+                interval:(NSTimeInterval)interval
+                 repeats:(BOOL)repeat
+                   async:(BOOL)async;
+
+
 /**
  根据任务唯一标识取消定时任务
 

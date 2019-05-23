@@ -86,8 +86,8 @@
 		3F8947B22296869F0074C1C1 /* CHGCDTimer */ = {
 			isa = PBXGroup;
 			children = (
-				3F8947B32296869F0074C1C1 /* CHGCDTimer.m */,
 				3F8947B42296869F0074C1C1 /* CHGCDTimer.h */,
+				3F8947B32296869F0074C1C1 /* CHGCDTimer.m */,
 			);
 			path = CHGCDTimer;
 			sourceTree = SOURCE_ROOT;

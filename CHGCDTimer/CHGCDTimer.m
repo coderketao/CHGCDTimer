@@ -8,6 +8,9 @@
 
 #import "CHGCDTimer.h"
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
+
 static NSMutableDictionary *_timers = nil;
 dispatch_semaphore_t semaphore;
 
@@ -67,10 +70,27 @@ dispatch_semaphore_t semaphore;
     return name;
 }
 
++ (NSString *)doWithTask:(id)target
+                selector:(SEL)selector
+                   start:(NSTimeInterval)start
+                interval:(NSTimeInterval)interval
+                 repeats:(BOOL)repeat
+                   async:(BOOL)async {
+    
+    if (target == nil || !selector) return nil;
+    
+    return [self doWithTask:^{
+        if ([target respondsToSelector:selector]) {
+            [target performSelector:selector];
+        }
+    } start:start interval:interval repeats:repeat async:async];
+    
+}
+
 /**
  根据任务唯一标识取消定时任务
  
- @param task 任务唯一标识
+ @param name 任务唯一标识
  */
 + (void)cacelTask:(NSString *)name {
     if (name.length == 0) return;
@@ -85,4 +105,7 @@ dispatch_semaphore_t semaphore;
 
     dispatch_semaphore_signal(semaphore);
 }
+
 @end
+
+#pragma clang diagnostic pop

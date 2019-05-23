@@ -13,11 +13,11 @@
 		3F8947A1229682730074C1C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8947A0229682730074C1C1 /* Assets.xcassets */; };
 		3F8947A4229682730074C1C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8947A2229682730074C1C1 /* LaunchScreen.storyboard */; };
 		3F8947A7229682730074C1C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8947A6229682730074C1C1 /* main.m */; };
-		3F8947B1229683DB0074C1C1 /* CHGCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8947AF229683DB0074C1C1 /* CHGCDTimer.m */; };
+		3F8947B52296869F0074C1C1 /* CHGCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8947B32296869F0074C1C1 /* CHGCDTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F894794229682720074C1C1 /* CHGCDTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHGCDTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F894794229682720074C1C1 /* CHGCDTimerExampleExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHGCDTimerExampleExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F894797229682720074C1C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F894798229682720074C1C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3F89479A229682720074C1C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -27,8 +27,8 @@
 		3F8947A3229682730074C1C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F8947A5229682730074C1C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F8947A6229682730074C1C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3F8947AF229683DB0074C1C1 /* CHGCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHGCDTimer.m; sourceTree = "<group>"; };
-		3F8947B0229683DB0074C1C1 /* CHGCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHGCDTimer.h; sourceTree = "<group>"; };
+		3F8947B32296869F0074C1C1 /* CHGCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHGCDTimer.m; sourceTree = "<group>"; };
+		3F8947B42296869F0074C1C1 /* CHGCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHGCDTimer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +45,7 @@
 		3F89478B229682720074C1C1 = {
 			isa = PBXGroup;
 			children = (
-				3F894796229682720074C1C1 /* CHGCDTimer */,
+				3F894796229682720074C1C1 /* CHGCDTimerExample */,
 				3F894795229682720074C1C1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,22 +53,22 @@
 		3F894795229682720074C1C1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F894794229682720074C1C1 /* CHGCDTimer.app */,
+				3F894794229682720074C1C1 /* CHGCDTimerExampleExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3F894796229682720074C1C1 /* CHGCDTimer */ = {
+		3F894796229682720074C1C1 /* CHGCDTimerExample */ = {
 			isa = PBXGroup;
 			children = (
-				3F8947AE229683DB0074C1C1 /* CHGCDTimer */,
+				3F8947B22296869F0074C1C1 /* CHGCDTimer */,
 				3F894797229682720074C1C1 /* AppDelegate.h */,
 				3F894798229682720074C1C1 /* AppDelegate.m */,
 				3F89479A229682720074C1C1 /* ViewController.h */,
 				3F89479B229682720074C1C1 /* ViewController.m */,
 				3F8947AD229682F10074C1C1 /* Resources */,
 			);
-			path = CHGCDTimer;
+			path = CHGCDTimerExample;
 			sourceTree = "<group>";
 		};
 		3F8947AD229682F10074C1C1 /* Resources */ = {
@@ -83,21 +83,21 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		3F8947AE229683DB0074C1C1 /* CHGCDTimer */ = {
+		3F8947B22296869F0074C1C1 /* CHGCDTimer */ = {
 			isa = PBXGroup;
 			children = (
-				3F8947B0229683DB0074C1C1 /* CHGCDTimer.h */,
-				3F8947AF229683DB0074C1C1 /* CHGCDTimer.m */,
+				3F8947B32296869F0074C1C1 /* CHGCDTimer.m */,
+				3F8947B42296869F0074C1C1 /* CHGCDTimer.h */,
 			);
 			path = CHGCDTimer;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F894793229682720074C1C1 /* CHGCDTimer */ = {
+		3F894793229682720074C1C1 /* CHGCDTimerExampleExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F8947AA229682730074C1C1 /* Build configuration list for PBXNativeTarget "CHGCDTimer" */;
+			buildConfigurationList = 3F8947AA229682730074C1C1 /* Build configuration list for PBXNativeTarget "CHGCDTimerExampleExample" */;
 			buildPhases = (
 				3F894790229682720074C1C1 /* Sources */,
 				3F894791229682720074C1C1 /* Frameworks */,
@@ -107,9 +107,9 @@
 			);
 			dependencies = (
 			);
-			name = CHGCDTimer;
-			productName = CHGCDTimer;
-			productReference = 3F894794229682720074C1C1 /* CHGCDTimer.app */;
+			name = CHGCDTimerExampleExample;
+			productName = CHGCDTimerExample;
+			productReference = 3F894794229682720074C1C1 /* CHGCDTimerExampleExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,7 +126,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3F89478F229682720074C1C1 /* Build configuration list for PBXProject "CHGCDTimer" */;
+			buildConfigurationList = 3F89478F229682720074C1C1 /* Build configuration list for PBXProject "CHGCDTimerExample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -139,7 +139,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F894793229682720074C1C1 /* CHGCDTimer */,
+				3F894793229682720074C1C1 /* CHGCDTimerExampleExample */,
 			);
 		};
 /* End PBXProject section */
@@ -163,7 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F89479C229682720074C1C1 /* ViewController.m in Sources */,
-				3F8947B1229683DB0074C1C1 /* CHGCDTimer.m in Sources */,
+				3F8947B52296869F0074C1C1 /* CHGCDTimer.m in Sources */,
 				3F8947A7229682730074C1C1 /* main.m in Sources */,
 				3F894799229682720074C1C1 /* AppDelegate.m in Sources */,
 			);
@@ -309,13 +309,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = NKW67GFDHM;
-				INFOPLIST_FILE = "$(SRCROOT)/CHGCDTimer/Resources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/CHGCDTimerExample/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.CoderHong.CHGCDTimer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoderHong.CHGCDTimerExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = CoderHongDev;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -328,13 +328,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = NKW67GFDHM;
-				INFOPLIST_FILE = "$(SRCROOT)/CHGCDTimer/Resources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/CHGCDTimerExample/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.CoderHong.CHGCDTimer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoderHong.CHGCDTimerExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = CoderHongDev;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -344,7 +344,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F89478F229682720074C1C1 /* Build configuration list for PBXProject "CHGCDTimer" */ = {
+		3F89478F229682720074C1C1 /* Build configuration list for PBXProject "CHGCDTimerExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F8947A8229682730074C1C1 /* Debug */,
@@ -353,7 +353,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F8947AA229682730074C1C1 /* Build configuration list for PBXNativeTarget "CHGCDTimer" */ = {
+		3F8947AA229682730074C1C1 /* Build configuration list for PBXNativeTarget "CHGCDTimerExampleExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F8947AB229682730074C1C1 /* Debug */,
